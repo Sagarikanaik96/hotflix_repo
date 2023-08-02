@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hotflix_repo *.css
+recursive-include hotflix_repo *.csv
+recursive-include hotflix_repo *.html
+recursive-include hotflix_repo *.ico
+recursive-include hotflix_repo *.js
+recursive-include hotflix_repo *.json
+recursive-include hotflix_repo *.md
+recursive-include hotflix_repo *.png
+recursive-include hotflix_repo *.py
+recursive-include hotflix_repo *.svg
+recursive-include hotflix_repo *.txt
+recursive-exclude hotflix_repo *.pyc
